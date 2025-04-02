@@ -39,7 +39,7 @@ public class CreateProduct extends BaseClass {
 	
 		//public void CreateProductTest(String browser) throws IOException, InterruptedException{
 		
-		public void CreateProductTest() throws IOException, InterruptedException{
+		public void addProductTest() throws IOException, InterruptedException{
 
 		//PropertiesFileUtility proputil = new PropertiesFileUtility();
 		
