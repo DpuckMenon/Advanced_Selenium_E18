@@ -6,6 +6,32 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="ContactTest.createContact">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="createContactWithCampaignTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ContactTest.createContact -->
+      <class name="ProductTest.CreateProduct">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="addProductTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- ProductTest.CreateProduct -->
       <class name="Login.LoginTest">
         <methods>
           <include name="beforeSuite"/>
@@ -19,6 +45,20 @@
           <include name="afterMethod"/>
         </methods>
       </class> <!-- Login.LoginTest -->
+      <class name="CampaignTest.CreateCampaign">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="createCampaignWithDateTest"/>
+          <include name="afterMethod"/>
+          <include name="CreateCampaignTest"/>
+        </methods>
+      </class> <!-- CampaignTest.CreateCampaign -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

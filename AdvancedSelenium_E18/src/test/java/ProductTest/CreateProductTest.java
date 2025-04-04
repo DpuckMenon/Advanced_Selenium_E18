@@ -32,7 +32,7 @@ import genericBaseClassUtility.BaseClass;
 import genericListenerUtility.ListenerImp;
 
 //@Listeners(ListenerImp.class)
-public class CreateProduct extends BaseClass {
+public class CreateProductTest extends BaseClass {
 		
 		//@Parameters("browser")
 		@Test(groups = {"Regression"})

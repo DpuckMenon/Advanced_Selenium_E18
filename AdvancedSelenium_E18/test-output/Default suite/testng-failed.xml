@@ -11,8 +11,8 @@
           <include name="afterTest"/>
           <include name="afterClass"/>
           <include name="beforeMethod"/>
-          <include name="LoginTest1"/>
           <include name="beforeClass"/>
+          <include name="LoginTest1"/>
           <include name="afterMethod"/>
         </methods>
       </class> <!-- Login.LoginTest -->

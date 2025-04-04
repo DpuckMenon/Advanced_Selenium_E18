@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\Nishanth\eclipse-workspace\AdvancedSelenium_E18\Batch.xml</span>
+                    <span>C:\Users\Nishanth\git\E18_Batch\AdvancedSelenium_E18\Batch.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,55 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 1 failed,  5 skipped,  4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login.LoginTest" class="method navigator-link" hash-for-method="LoginTest1">LoginTest1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login.LoginTest" class="method navigator-link" hash-for-method="LoginTest1">LoginTest1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login.LoginTest" class="method navigator-link" hash-for-method="LoginTest1">LoginTest1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login.LoginTest" class="method navigator-link" hash-for-method="LoginTest1">LoginTest1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login.LoginTest" class="method navigator-link" hash-for-method="LoginTest1">LoginTest1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Login.LoginTest" class="method navigator-link" hash-for-method="LoginTest1">LoginTest1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -156,7 +108,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="ProductTest.CreateProduct" class="method navigator-link" hash-for-method="CreateProductTest">CreateProductTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="Login.LoginTest" class="method navigator-link" hash-for-method="LoginTest1">LoginTest1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="ProductTest.CreateProduct" class="method navigator-link" hash-for-method="addProductTest">addProductTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -181,94 +138,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Login.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest1">
-                  </a> <!-- LoginTest1 -->
-                  <span class="method-name">LoginTest1</span>
-                  <div class="stack-trace">java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-	at Login.LoginTest.LoginTest1(LoginTest.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Login.LoginTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest1">
-                  </a> <!-- LoginTest1 -->
-                  <span class="method-name">LoginTest1</span>
-                  <div class="stack-trace">java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-	at Login.LoginTest.LoginTest1(LoginTest.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest1">
-                  </a> <!-- LoginTest1 -->
-                  <span class="method-name">LoginTest1</span>
-                  <div class="stack-trace">java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-	at Login.LoginTest.LoginTest1(LoginTest.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest1">
-                  </a> <!-- LoginTest1 -->
-                  <span class="method-name">LoginTest1</span>
-                  <div class="stack-trace">java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-	at Login.LoginTest.LoginTest1(LoginTest.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest1">
-                  </a> <!-- LoginTest1 -->
-                  <span class="method-name">LoginTest1</span>
-                  <div class="stack-trace">java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-	at Login.LoginTest.LoginTest1(LoginTest.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="LoginTest1">
-                  </a> <!-- LoginTest1 -->
-                  <span class="method-name">LoginTest1</span>
-                  <div class="stack-trace">java.lang.AssertionError: Validation is failed expected [http://49.249.28.218:8098/dashboar] but found [http://49.249.28.218:8098/dashboard]
-	at Login.LoginTest.LoginTest1(LoginTest.java:63)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -292,9 +161,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="CreateProductTest">
-                  </a> <!-- CreateProductTest -->
-                  <span class="method-name">CreateProductTest</span>
+                  <a name="addProductTest">
+                  </a> <!-- addProductTest -->
+                  <span class="method-name">addProductTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -321,10 +190,25 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginTest1">
+                  </a> <!-- LoginTest1 -->
+                  <span class="method-name">LoginTest1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Nishanth\eclipse-workspace\AdvancedSelenium_E18\Batch.xml</span>
+            <span class="header-content">C:\Users\Nishanth\git\E18_Batch\AdvancedSelenium_E18\Batch.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -367,7 +251,7 @@
               <span class="test-group-name">Regression</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">CreateProductTest</span>
+                <span class="method-in-group-name">addProductTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -395,52 +279,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(10);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'createContactWithCampaignTest')
 data.setCell(0, 2, 'ContactTest.createContact')
-data.setCell(0, 3, 22043);
+data.setCell(0, 3, 21881);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'CreateCampaignTest')
 data.setCell(1, 2, 'CampaignTest.CreateCampaign')
-data.setCell(1, 3, 14702);
+data.setCell(1, 3, 14690);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'createCampaignWithDateTest')
 data.setCell(2, 2, 'CampaignTest.CreateCampaign')
-data.setCell(2, 3, 13413);
+data.setCell(2, 3, 13411);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'CreateProductTest')
+data.setCell(3, 1, 'addProductTest')
 data.setCell(3, 2, 'ProductTest.CreateProduct')
-data.setCell(3, 3, 7152);
+data.setCell(3, 3, 7267);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'LoginTest1')
 data.setCell(4, 2, 'Login.LoginTest')
-data.setCell(4, 3, 2123);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'LoginTest1')
-data.setCell(5, 2, 'Login.LoginTest')
-data.setCell(5, 3, 2058);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'LoginTest1')
-data.setCell(6, 2, 'Login.LoginTest')
-data.setCell(6, 3, 2048);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'LoginTest1')
-data.setCell(7, 2, 'Login.LoginTest')
-data.setCell(7, 3, 2045);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'LoginTest1')
-data.setCell(8, 2, 'Login.LoginTest')
-data.setCell(8, 3, 2044);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'LoginTest1')
-data.setCell(9, 2, 'Login.LoginTest')
-data.setCell(9, 3, 2030);
+data.setCell(4, 3, 2165);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 59 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -452,27 +316,33 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">CreateProductTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Product Macbook Air7731 added successfully</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">createCampaignWithDateTest</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Campaign Banner111164 added successfully</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">createContactWithCampaignTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Contact Smith_1572 added successfully</span>
+                <span class="reporter-method-output">Contact Smith_338 added successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">CreateCampaignTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Campaign Banner111311 added successfully</span>
+                <span class="reporter-method-output">Campaign Banner11535 added successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createCampaignWithDateTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Campaign Banner11144 added successfully</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginTest1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Validation is passed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addProductTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Product Macbook Air6068 added successfully</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -485,13 +355,13 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">ContactTest.createContact</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterTest</span>
-                <br/>
-                <span class="ignored-method-name">beforeSuite</span>
+                <span class="ignored-method-name">beforeTest</span>
                 <br/>
                 <span class="ignored-method-name">afterSuite</span>
                 <br/>
-                <span class="ignored-method-name">beforeTest</span>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -500,24 +370,24 @@ return data;
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">afterTest</span>
                 <br/>
-                <span class="ignored-method-name">afterSuite</span>
+                <span class="ignored-method-name">beforeTest</span>
                 <br/>
                 <span class="ignored-method-name">beforeSuite</span>
                 <br/>
-                <span class="ignored-method-name">beforeTest</span>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">Login.LoginTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">beforeSuite</span>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
                 <span class="ignored-method-name">afterTest</span>
                 <br/>
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
                 <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -536,181 +406,119 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">690 ms</span>
+                <span class="method-start">799 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">720 ms</span>
+                <span class="method-start">828 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">2722 ms</span>
+                <span class="method-start">3022 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">CreateCampaignTest</span>
-                <span class="method-start">3795 ms</span>
+                <span class="method-start">4647 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">18504 ms</span>
+                <span class="method-start">19343 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">18673 ms</span>
+                <span class="method-start">19501 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createCampaignWithDateTest</span>
-                <span class="method-start">19590 ms</span>
+                <span class="method-start">20341 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">33010 ms</span>
+                <span class="method-start">33754 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">33162 ms</span>
+                <span class="method-start">33901 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ProductTest.CreateProduct</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">33530 ms</span>
+                <span class="method-start">34281 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">35190 ms</span>
+                <span class="method-start">36023 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">CreateProductTest</span>
-                <span class="method-start">36233 ms</span>
+                <span class="method-name">addProductTest</span>
+                <span class="method-start">37238 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">43388 ms</span>
+                <span class="method-start">44510 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">43553 ms</span>
+                <span class="method-start">44676 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Login.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">43891 ms</span>
+                <span class="method-start">45089 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">45529 ms</span>
+                <span class="method-start">46718 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginTest1</span>
-                <span class="method-start">46657 ms</span>
+                <span class="method-start">47845 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">48784 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">48935 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">LoginTest1</span>
-                <span class="method-start">49830 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">51880 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">52017 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">LoginTest1</span>
-                <span class="method-start">52927 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">54972 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">55097 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">LoginTest1</span>
-                <span class="method-start">56032 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">58102 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">58312 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">LoginTest1</span>
-                <span class="method-start">59132 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">61182 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod</span>
-                <span class="method-start">61339 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">LoginTest1</span>
-                <span class="method-start">62207 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">64660 ms</span>
+                <span class="method-start">50013 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">64784 ms</span>
+                <span class="method-start">50157 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">ContactTest.createContact</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">65244 ms</span>
+                <span class="method-start">50534 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod</span>
-                <span class="method-start">66700 ms</span>
+                <span class="method-start">51956 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createContactWithCampaignTest</span>
-                <span class="method-start">67762 ms</span>
+                <span class="method-start">53192 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">89805 ms</span>
+                <span class="method-start">75073 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">89948 ms</span>
+                <span class="method-start">75211 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">CampaignTest.CreateCampaign</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">90278 ms</span>
+                <span class="method-start">75589 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">90947 ms</span>
+                <span class="method-start">76240 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
