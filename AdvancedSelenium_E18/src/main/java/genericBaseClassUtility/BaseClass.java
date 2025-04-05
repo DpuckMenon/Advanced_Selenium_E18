@@ -51,7 +51,8 @@ public class BaseClass {
 	{
 		System.out.println("Launch the Browser");
 				
-		String BROWSER = proputil.readingDataFromPropFile("browser");
+		//String BROWSER = proputil.readingDataFromPropFile("browser");
+		String BROWSER = System.getProperty("browser");//For running maven test (mvn test -Dbrowser=chrome)
 		ChromeOptions Coption = new ChromeOptions();
 		FirefoxOptions Foption = new FirefoxOptions();
 		EdgeOptions Eoption = new EdgeOptions();
@@ -83,8 +84,10 @@ public class BaseClass {
 	{
 		System.out.println("Login");
 		String URL = proputil.readingDataFromPropFile("url");
-		String UN = proputil.readingDataFromPropFile("uname");
-		String PWD = proputil.readingDataFromPropFile("pwd");
+		//String UN = proputil.readingDataFromPropFile("uname");
+		//String PWD = proputil.readingDataFromPropFile("pwd");
+		String UN = System.getProperty("uname");// For running maven test (mvn test -Duname=rmgyantra -Dpwd=rmg9999)
+		String PWD = System.getProperty("pwd");//  For running maven test
 		driver.get(URL);
 		LoginPage lp = new LoginPage(driver);
 		lp.login(UN, PWD);
